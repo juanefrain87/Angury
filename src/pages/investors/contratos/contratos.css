@@ -1,0 +1,108 @@
+.contratosh1{
+    color: white;
+}
+
+.contratodiv1, .contratodiv2, .contratodiv3, .contratodiv4 {
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    border: solid rgb(218, 47, 47) 1px;
+    
+}
+
+.contratoh1{
+    color: white;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+
+.botoninvertir{
+    width: 60%;
+    height: 35px;
+    background-color: rgb(41, 41, 214);
+    border: 1px solid  rgb(41, 41, 214) ;
+    border-radius: 10px;
+    color: white;
+}
+
+.boton2{
+    width: 60%;
+    height: 35px;
+    background-color: rgb(41, 41, 214);
+    border: 1px solid  rgb(41, 41, 214) ;
+    border-radius: 10px;
+    color: white;
+    margin-top: 10px;
+    
+
+}
+
+
+.izq{
+    display: flex;
+    width: 75%;
+   
+}
+
+
+
+.izq > div{
+    width: 25%;
+    margin-right:30px ;
+    border: solid rgb(75, 74, 74) 1px;
+    height: 380px;
+    border-radius: 15px;
+
+}
+
+.especial{
+    height: 440px !important; 
+    margin-top: -30px;
+    background-color:  rgba(52, 64, 96, .26);
+
+}
+
+.contratoh{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+
+.der{
+    width: 25%;
+    height: 440px;
+    margin-top: -30px;
+
+    border: solid rgb(75, 74, 74) 1px;
+    border-radius: 15px;
+    padding-top: 15px;
+}
+
+.der > h1{
+    font-size: 20px;
+    color: white;
+    margin-left: 25%;
+    margin-bottom: 10px;
+}
+
+.padre{
+    display: flex;
+}
+
+.der-li{
+    color: rgb(179, 175, 175);
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.img-1{
+    width: 80%;
+    height: 170px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+
