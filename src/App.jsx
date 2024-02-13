@@ -17,6 +17,7 @@ import { UsersRanges } from './pages/investors/ranges/UsersRanges';
 import { Membership } from './pages/investors/dashboard/Membership';
 import { Events } from './pages/investors/events/Events';
 import Referidos from './pages/investors/referrals/Referidos';
+import Inversiones from './pages/investors/inversiones/Inversiones';
 import i18next from "i18next";
 import { I18nextProvider } from "react-i18next";
 import esTranslation from "./i18n/es.json";
@@ -60,6 +61,7 @@ function App() {
 
                         <Route path='/dashboard' element={<Dashboard />} />
                         <Route path='/user' element={<User />} />
+                        <Route path='/inversiones' element={<Inversiones />} />
                         <Route path='/plans' element={<Plans />} />
                         <Route path='/history' element={<History />} />
                         <Route path='/referrals' element={<Referrals />} />

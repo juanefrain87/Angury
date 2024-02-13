@@ -5,6 +5,7 @@
 .contratodiv1, .contratodiv2, .contratodiv3, .contratodiv4 {
     display: flex;
     flex-direction: column;
+    width: 18%;
    
     align-items: center;
     border: solid rgb(218, 47, 47) 1px;
@@ -42,23 +43,27 @@
 
 .izq{
     display: flex;
-    width: 75%;
+    width: 100%;
    
 }
 
 
 
 .izq > div{
-    width: 25%;
+   
     margin-right:30px ;
     border: solid rgb(75, 74, 74) 1px;
-    height: 380px;
+    
     border-radius: 15px;
 
 }
+.contratodiv1, .contratodiv2, .contratodiv4{
+    height: 380px;
+
+} 
 
 .especial{
-    height: 440px !important; 
+    height: 440px ; 
     margin-top: -30px;
     background-color:  rgba(52, 64, 96, .26);
 
@@ -68,11 +73,12 @@
     color: white;
     font-size: 30px;
     margin-bottom: 25px;
+    
 }
 
 
 .der{
-    width: 25%;
+    width: 28%;
     height: 440px;
     margin-top: -30px;
 
@@ -106,3 +112,35 @@
 }
 
 
+@media screen and (max-width: 1300px) {
+
+    .izq{
+        flex-wrap: wrap;
+        
+        width: 100%;
+       
+    }
+    .izq > div{
+        min-width: 200px;
+        max-width: 300px;
+        flex-grow: 1;
+        margin-bottom: 20px;
+        margin-top: 0;
+       
+
+    }
+    .especial{
+        height: 380px !important;
+
+    }
+    .contratoh{
+        color: white;
+        font-size: 22px;
+        margin-bottom: 15px;
+        
+    }
+    .padre{
+        flex-wrap: wrap;
+    }
+   
+}

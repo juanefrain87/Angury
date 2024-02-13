@@ -48,8 +48,7 @@ const Contrato = () => {
                     <h1 className='contratoh1'>3%</h1>
                     <button className='botoninvertir'>invertir</button>
                 </div>
-            </div>
-            <div className="der">
+                <div className="der">
                 <h1>Restricciones</h1>
                 <ul>
                     <li className='der-li'>la cantidad minima de inversion es de 100 usdt</li>
@@ -61,6 +60,8 @@ const Contrato = () => {
                 <img src={restricciones} alt="" className='img-1' />
 
             </div>
+            </div>
+            
         </div>
 
         </Investor>

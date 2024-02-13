@@ -18,6 +18,7 @@ export function Investor(props) {
 
     const Membership = true;
 
+
     if (!Membership) {
         window.location.href = '/membership';
     }
@@ -38,7 +39,7 @@ export function Investor(props) {
                 
                                         <li><NavLink to='/dashboard' 
                                                 className={active}><img src="/src/assets/img/iconos/dashboard.png" className='icon-image' alt="" /> <span>{t('pages.dashboard')}</span></NavLink></li>
-                                        <li><NavLink to='/investments' 
+                                         <li><NavLink to='/inversiones' 
                                                 className={active}><img src="/src/assets/img/iconos/inversiones.png" className='icon-image' alt="" /> <span>{t('Inversiones activas')}</span></NavLink></li>
                                         <li><NavLink to='/usuarios' 
                                                 className={active}><img src="/src/assets/img/iconos/usuarios.png" className='icon-image' alt="" /> <span>{t('Usuarios')}</span></NavLink></li>
@@ -72,10 +73,7 @@ export function Investor(props) {
                                                 <box-icon type='logo' color='white' name='telegram'></box-icon>
                                             </div>
                                         </div>
-                                        <div className="mt-3 text-secondary">
-                                            <p className="m-0">AUGURY CAPITAL &copy; 2023-2024</p>
-                                            <p className="m-0">Todos los derechos reservados</p>
-                                        </div>
+                                       
                                     </div>
 
                                 </div>

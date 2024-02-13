@@ -6,7 +6,9 @@ const Referidos = () => {
 
         <>
         <Investor>
+            <center> 
         <h1 className='h1'>referidos</h1>
+        </center>
         <div className="padre-1"> 
             <div className="contenedor-1">
                 <h1 className='h1contenedor'>equipo total de personas </h1>
@@ -23,9 +25,6 @@ const Referidos = () => {
 
 
             </div>
-        </div>
-
-        <div className="padre-2"> 
             <div className="contenedor-1 dos">
                 <h1 className="h1contenedor">bono inicio</h1>
                 <p>4</p>
@@ -45,6 +44,10 @@ const Referidos = () => {
 
             </div>
         </div>
+
+        
+            
+        
 
         <div className="contenedor-abajo">
 
