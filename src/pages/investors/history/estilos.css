@@ -4,6 +4,7 @@
    
     position: relative;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .cont-padre-history > div{
@@ -12,6 +13,13 @@
     height: 100%;
     margin-right: 3%;
     border-radius: 10px;
+    min-width: 180px;
+    flex-grow: 1;
+    
+
+}
+.esph{
+    flex-grow: 0.26 !important;
 }
 
 .history1 > div{
@@ -33,6 +41,7 @@
 }
 .hijo1-history2{
     background-color:  rgba(27, 54, 109, 0.26);
+    height: auto !important;
 }
 
 .hijohistoryh{
@@ -48,6 +57,21 @@
 
 .phistory{
     color: rgb(168, 168, 168);
-    margin: 0;
+    margin: 5px;
     padding: 0;
 }
+
+@media screen and (max-width: 830px) {
+    .hijohistoryh{
+        font-size:20px;
+    }
+
+}
+
+@media screen and (max-width: 590px) {
+    .cont-padre-history > div{
+        margin-bottom: 50px;
+    }
+    
+}
+

@@ -5,7 +5,7 @@
 .contratodiv1, .contratodiv2, .contratodiv3, .contratodiv4 {
     display: flex;
     flex-direction: column;
-    width: 18%;
+    width: 19%;
    
     align-items: center;
     border: solid rgb(218, 47, 47) 1px;
@@ -29,13 +29,15 @@
 }
 
 .boton2{
-    width: 60%;
-    height: 35px;
+    width: 70%;
+    height: auto;
     background-color: rgb(41, 41, 214);
     border: 1px solid  rgb(41, 41, 214) ;
     border-radius: 10px;
     color: white;
     margin-top: 10px;
+    padding: 5px;
+    
     
 
 }
@@ -71,16 +73,17 @@
 
 .contratoh{
     color: white;
-    font-size: 30px;
+    font-size: 27px;
     margin-bottom: 25px;
     
 }
 
 
 .der{
-    width: 28%;
+    width: 24%;
     height: 440px;
     margin-top: -30px;
+    flex-grow: 1;
 
     border: solid rgb(75, 74, 74) 1px;
     border-radius: 15px;
@@ -112,7 +115,7 @@
 }
 
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1200px) {
 
     .izq{
         flex-wrap: wrap;
@@ -143,4 +146,11 @@
         flex-wrap: wrap;
     }
    
+}
+@media screen and (max-width: 510px) {
+.izq{
+    justify-content: center;
+
+}
+
 }

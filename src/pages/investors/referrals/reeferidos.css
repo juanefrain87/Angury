@@ -21,7 +21,7 @@ h1.h1{
 }
 
 .contenedor-1{
-    width: 31%;
+    width: 30.5%;
     height: 110px;
     border: solid gainsboro 1px;
     border-radius: 10px;
@@ -38,7 +38,7 @@ h1.h1{
 
 .h1contenedor{
     color: white;
-    font-size: 20px;
+    font-size: 17px;
     margin-left: 0;
 }
 
@@ -156,6 +156,9 @@ ul{
     }
     .abovehijo1{
         width: 100%;
+    }
+    .h1contenedor{
+        font-size: 16px;
     }
 
 }  
