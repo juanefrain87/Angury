@@ -1,5 +1,5 @@
 import { Investor } from '../../../components/Invesor';
-
+import anuncios from "../../../assets/img/anuncios/01.png"
 export const Announcement = () => {
 
     return (
@@ -17,7 +17,7 @@ export const Announcement = () => {
                                 </div>
                                 <div className="col-md-6">
                                 <div className="card w-100">
-                                    <img src="/src/assets/img/anuncios/01.png" className="card-img-top" alt="..."/>
+                                    <img src={anuncios} className="card-img-top" alt="..."/>
                                     <div className="card-body p-4">
                                         <p className="fs-6 d-flex align-items-center"><box-icon name='calendar' color='white'></box-icon> <span className='ms-2'>24/07/2023</span></p>
                                         <h5 className="card-title">Obtén tu tarjeta VISA</h5>
