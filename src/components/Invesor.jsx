@@ -1,11 +1,15 @@
 import { useState } from 'react';
 import { useTranslation } from "react-i18next";
 import { NavLink } from 'react-router-dom';
-import {logo} from "../assets/img/logo.png"
-import { dashboardicono } from '../assets/img/dashboard.png';
-import inversionesicono from "../assets/img/iconos/inversiones.png"
-import usuicono from "../assets/img/iconos/usuarios.png"
-import contratosicono from "../assets/img/iconos/contratos.png"
+import dashboardicono from "../assets/img/iconos/dashboard.png";
+import inversionesicono from "../assets/img/iconos/inversiones.png";
+import usuariosicono from "../assets/img/iconos/usuarios.png";
+import contratosicono from "../assets/img/iconos/contratos.png";
+import historialicono from "../assets/img/iconos/historial.png";
+import anunciosicono from "../assets/img/iconos/anuncios.png";
+import referidosicono from "../assets/img/iconos/referidos.png";
+import eventosicono from "../assets/img/iconos/eventos.png";
+
 
 export function Investor(props) {
 
@@ -37,7 +41,7 @@ export function Investor(props) {
                             <div className="vh-100 w-100 border-end border-secondary position-sticky top-0">
                                 <div className="h-100 d-flex flex-column">
                                     <div className="logo p-4">
-                                        <img src={logo} className="w-50 d-block" alt="" />
+                                        <img src="/src/assets/img/logo.png" className="w-50 d-block" alt="" />
                                     </div>
                                     
                                     <ul className='mb-4 p-3 position-sticky top-5'>
@@ -47,19 +51,19 @@ export function Investor(props) {
                                          <li><NavLink to='/inversiones' 
                                                 className={active}><img src={inversionesicono} className='icon-image' alt="" /> <span>{t('Inversiones activas')}</span></NavLink></li>
                                         <li><NavLink to='/usuarios' 
-                                                className={active}><img src={usuicono} className='icon-image' alt="" /> <span>{t('Usuarios')}</span></NavLink></li>
+                                                className={active}><img src={usuariosicono} className='icon-image' alt="" /> <span>{t('Usuarios')}</span></NavLink></li>
                                         <li><NavLink to='/contratos' 
                                                 className={active}><img src={contratosicono} className='icon-image' alt="" /> <span>{t('Contratos')}</span></NavLink></li>
                                         <li><NavLink to='/history' 
-                                                className={active}><img src="/src/assets/img/iconos/historial.png" className='icon-image' alt="" /> <span>{t('Historial')}</span></NavLink></li>
+                                                className={active}><img src={historialicono} className='icon-image' alt="" /> <span>{t('Historial')}</span></NavLink></li>
                                         <li><NavLink to='/plans' 
-                                                className={active}><img src="/src/assets/img/iconos/dashboard.png" className='icon-image' alt="" /> <span>{t('pages.dashboard')}</span></NavLink></li>
+                                                className={active}><img src={dashboardicono} className='icon-image' alt="" /> <span>{t('pages.dashboard')}</span></NavLink></li>
                                         <li><NavLink to='/referidos' 
-                                                className={active}><img src="/src/assets/img/iconos/referidos.png" className='icon-image' alt="" /> <span>{t('Referidos')}</span></NavLink></li>
+                                                className={active}><img src={referidosicono} className='icon-image' alt="" /> <span>{t('Referidos')}</span></NavLink></li>
                                         <li><NavLink to='/announcements' 
-                                                className={active}><img src="/src/assets/img/iconos/anuncios.png" className='icon-image' alt="" /> <span>{t('pages.announcements')}</span></NavLink></li>
+                                                className={active}><img src={anunciosicono} className='icon-image' alt="" /> <span>{t('pages.announcements')}</span></NavLink></li>
                                         <li><NavLink to='/events' 
-                                                className={active}><img src="/src/assets/img/iconos/eventos.png" className='icon-image' alt="" /> <span>{t('Próximos eventos')}</span></NavLink></li>
+                                                className={active}><img src={eventosicono} className='icon-image' alt="" /> <span>{t('Próximos eventos')}</span></NavLink></li>
 
                                     </ul>
 
