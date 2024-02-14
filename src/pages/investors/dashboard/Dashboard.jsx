@@ -81,28 +81,28 @@ export const Dashboard = () => {
 
                                 <div className="mt-4 d-flex">
                                     <div>
-                                        <img src="/src/assets/img/iconos/checkmark.png" style={{width: '25px', marginRight:'15px'}} />
+                                        <img src={checkmark} style={{width: '25px', marginRight:'15px'}} />
                                     </div>
                                     <p className='text-white m-0'>Solo se pueden hacer retiros diarios provenientes de las ganancias totales y de las recompensas por referidos.</p>
                                 </div>
 
                                 <div className="mt-4 d-flex">
                                     <div>
-                                        <img src="/src/assets/img/iconos/checkmark.png" style={{width: '25px', marginRight:'15px'}} />
+                                        <img src={checkmark} style={{width: '25px', marginRight:'15px'}} />
                                     </div>
                                     <p className='text-white m-0'>La cantidad maxima de retiros es de 300 USDT, los dividendos que excedan esa cantidad se devuelven a la cuenta de forma automática.</p>
                                 </div>
 
                                 <div className="mt-4 d-flex">
                                     <div>
-                                        <img src="/src/assets/img/iconos/checkmark.png" style={{width: '25px', marginRight:'15px'}} />
+                                        <img src={checkmark} style={{width: '25px', marginRight:'15px'}} />
                                     </div>
                                     <p className='text-white m-0'>La cantidad minima de inversión es de 100 USDT.</p>
                                 </div>
 
                                 <div className="mt-4 d-flex">
                                     <div>
-                                        <img src="/src/assets/img/iconos/checkmark.png" style={{width: '25px', marginRight:'15px'}} />
+                                        <img src={checkmark} style={{width: '25px', marginRight:'15px'}} />
                                     </div>
                                     <p className='text-white m-0'>Si es tu primera vez en la plataforma, debes aprobar el contrato para poder invertir.</p>
                                 </div>
