@@ -45,37 +45,7 @@ function App() {
     return (
 
         <div>
-            <I18nextProvider i18n={i18next}>
-                <BrowserRouter>
-                    <Routes>
-
-                        {/* Login y Registro */}
-
-                        <Route path='/' element={<Usuarios />} />
-                        <Route path='/login' element={<Login />} />
-                        <Route path='/register' element={<Register />} />
-
-                        {/* Pantallas de inversionistas */}
-
-                        <Route path='/dashboard' element={<Dashboard />} />
-                        <Route path='/user' element={<User />} />
-                        <Route path='/inversiones' element={<Inversiones />} />
-                        <Route path='/plans' element={<Plans />} />
-                        <Route path='/history' element={<History />} />
-                        <Route path='/referrals' element={<Referrals />} />
-                        <Route path='/referidos' element={<Referidos />} />
-                        <Route path='/announcements' element={<Announcement />} />
-                        <Route path='/ranges' element={<UsersRanges />} />
-                        <Route path='/membership' element={<Membership />} />
-                        <Route path='/events' element={<Events />} />
-                        <Route path='/events' element={<Events />} />
-                        <Route path='/contratos' element={<Contrato/>} />
-                        <Route path='/usuarios' element={<Usuarios/>} />
-                        
-
-                    </Routes>
-                </BrowserRouter>
-            </I18nextProvider>
+           <h1>jola</h1>
         </div>
     )
 }
