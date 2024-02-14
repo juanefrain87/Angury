@@ -1,5 +1,6 @@
 import { Investor } from '../../../components/Invesor';
 import checkmark from "../../../assets/img/iconos/checkmark.png"
+import cerouno from "../../../assets/img/dashboard/01.png"
 
 export const Dashboard = () => {
 
@@ -108,7 +109,7 @@ export const Dashboard = () => {
                                 </div>
 
                                 <div className="mt-5 p-5">
-                                    <img src="/src/assets/img/dashboard/01.png" className='w-100' />
+                                    <img src={cerouno} className='w-100' />
                                 </div>
 
                             </div>
