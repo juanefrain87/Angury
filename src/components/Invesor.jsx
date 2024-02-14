@@ -2,6 +2,10 @@ import { useState } from 'react';
 import { useTranslation } from "react-i18next";
 import { NavLink } from 'react-router-dom';
 import {logo} from "../assets/img/logo.png"
+import { dashboardicono } from '../assets/img/dashboard.png';
+import inversionesicono from "../assets/img/iconos/inversiones.png"
+import usuicono from "../assets/img/iconos/usuarios.png"
+import contratosicono from "../assets/img/iconos/contratos.png"
 
 export function Investor(props) {
 
@@ -39,13 +43,13 @@ export function Investor(props) {
                                     <ul className='mb-4 p-3 position-sticky top-5'>
                 
                                         <li><NavLink to='/dashboard' 
-                                                className={active}><img src="/src/assets/img/iconos/dashboard.png" className='icon-image' alt="" /> <span>{t('pages.dashboard')}</span></NavLink></li>
+                                                className={active}><img src={dashboardicono} className='icon-image' alt="" /> <span>{t('pages.dashboard')}</span></NavLink></li>
                                          <li><NavLink to='/inversiones' 
-                                                className={active}><img src="/src/assets/img/iconos/inversiones.png" className='icon-image' alt="" /> <span>{t('Inversiones activas')}</span></NavLink></li>
+                                                className={active}><img src={inversionesicono} className='icon-image' alt="" /> <span>{t('Inversiones activas')}</span></NavLink></li>
                                         <li><NavLink to='/usuarios' 
-                                                className={active}><img src="/src/assets/img/iconos/usuarios.png" className='icon-image' alt="" /> <span>{t('Usuarios')}</span></NavLink></li>
+                                                className={active}><img src={usuicono} className='icon-image' alt="" /> <span>{t('Usuarios')}</span></NavLink></li>
                                         <li><NavLink to='/contratos' 
-                                                className={active}><img src="/src/assets/img/iconos/contratos.png" className='icon-image' alt="" /> <span>{t('Contratos')}</span></NavLink></li>
+                                                className={active}><img src={contratosicono} className='icon-image' alt="" /> <span>{t('Contratos')}</span></NavLink></li>
                                         <li><NavLink to='/history' 
                                                 className={active}><img src="/src/assets/img/iconos/historial.png" className='icon-image' alt="" /> <span>{t('Historial')}</span></NavLink></li>
                                         <li><NavLink to='/plans' 
