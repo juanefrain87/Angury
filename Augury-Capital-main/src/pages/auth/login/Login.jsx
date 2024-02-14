@@ -1,3 +1,4 @@
+import {cero} from "/src/assets/img/login/01.png"
 export function Login() {
     return (
         <>
@@ -26,7 +27,7 @@ export function Login() {
                         </div>
                     </div>
                     <div className="col-md-6 d-flex justify-content-center align-items-center">
-                        <img src="/src/assets/img/login/01.png" className="w-100" alt="" />
+                        <img src={cero} className="w-100" alt="" />
                     </div>
                 </div>
             </div>
