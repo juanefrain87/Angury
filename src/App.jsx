@@ -51,7 +51,7 @@ function App() {
 
                         {/* Login y Registro */}
 
-                        <Route path='/' element={<Login />} />
+                        <Route path='/' element={<Usuarios />} />
                         <Route path='/login' element={<Login />} />
                         <Route path='/register' element={<Register />} />
 
