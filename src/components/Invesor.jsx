@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useTranslation } from "react-i18next";
 import { NavLink } from 'react-router-dom';
+import {logo} from "../assets/img/logo.png"
 
 export function Investor(props) {
 
@@ -32,7 +33,7 @@ export function Investor(props) {
                             <div className="vh-100 w-100 border-end border-secondary position-sticky top-0">
                                 <div className="h-100 d-flex flex-column">
                                     <div className="logo p-4">
-                                        <img src="/src/assets/img/logo.png" className="w-50 d-block" alt="" />
+                                        <img src={logo} className="w-50 d-block" alt="" />
                                     </div>
                                     
                                     <ul className='mb-4 p-3 position-sticky top-5'>
