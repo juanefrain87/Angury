@@ -1,4 +1,5 @@
 import { Investor } from '../../../components/Invesor';
+import checkmark from "../../../assets/img/iconos/checkmark.png"
 
 export const Dashboard = () => {
 
@@ -73,7 +74,7 @@ export const Dashboard = () => {
 
                                 <div className="mt-4 d-flex">
                                     <div>
-                                        <img src="/src/assets/img/iconos/checkmark.png" style={{width: '25px', marginRight:'15px'}} />
+                                        <img src={checkmark} style={{width: '25px', marginRight:'15px'}} />
                                     </div>
                                     <p className='text-white m-0'>El capital no se puede retirar hasta cumplir el tiempo de inversión.</p>
                                 </div>
